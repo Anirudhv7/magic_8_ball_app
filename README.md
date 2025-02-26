@@ -9,7 +9,7 @@ A Flutter implementation of the classic fortune-telling toy with modern interact
 - Responsive layout
 - Interactive visual feedback
 
-## 🛠️ How to Use
+##  How to Use
 1. Think of a yes/no question
 2. Tap the magic ball
 3. Receive your randomized answer!
