@@ -1,16 +1,20 @@
 # magic_8_ball_app
 
-A new Flutter project.
+A Flutter implementation of the classic fortune-telling toy with modern interactions.
 
-## Getting Started
+##  Features
+- Tap-sensitive digital magic ball
+- 5 different randomized answers
+- Material design interface
+- Responsive layout
+- Interactive visual feedback
 
-This project is a starting point for a Flutter application.
+## 🛠️ How to Use
+1. Think of a yes/no question
+2. Tap the magic ball
+3. Receive your randomized answer!
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Example questions:
+- "Will I land my dream developer job this year?"
+- "Should I choose React for my next project?"
+- "Will RCB win the next IPL?" 

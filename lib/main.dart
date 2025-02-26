@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
 
+// Main application 
 void main() {
   return runApp(
     MaterialApp(
@@ -11,6 +12,7 @@ void main() {
             backgroundColor: Colors.blue[800],
             title: Center(
               child: Text(
+                // Main header text
                 'Ask Me Anything',
                 style:
                     TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
@@ -23,7 +25,7 @@ void main() {
     ),
   );
 }
-
+// Stateful widget for the magic ball functionality
 class MagicBall extends StatefulWidget {
   const MagicBall({super.key});
 
@@ -32,12 +34,13 @@ class MagicBall extends StatefulWidget {
 }
 
 class _MagicBallState extends State<MagicBall> {
+  // Default ball state
   int ball = 1;
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
         onTap: () {
-          setState(() {
+          setState(() { 
             ball = Random().nextInt(5) + 1;
           });
         },
@@ -48,6 +51,7 @@ class _MagicBallState extends State<MagicBall> {
               children: [
                 Expanded(
                   child: Image(
+                    // Display current ball state image
                     image: AssetImage('images/ball$ball.png'),
                   ),
                 ),
